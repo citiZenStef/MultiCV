@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="hal">Resources/hal_9000_eye.png</file>
+    <file alias="ffd">Resources/stock_media_ffwd.png</file>
+    <file alias="next">Resources/stock_media_next.png</file>
+    <file alias="pause">Resources/stock_media_pause.png</file>
+    <file alias="play">Resources/stock_media_play.png</file>
+    <file alias="previous">Resources/stock_media_prev.png</file>
+    <file alias="rew">Resources/stock_media_rewind.png</file>
+    <file alias="stop">Resources/stock_media_stop.png</file>
+    <file alias="green">Resources/green_light.png</file>
+    <file alias="red">Resources/red_light.png</file>
+    <file alias="yellow">Resources/yellow_light.png</file>
+    <file alias="cible">Resources/logoCible.png</file>
+  </qresource>
+</RCC>

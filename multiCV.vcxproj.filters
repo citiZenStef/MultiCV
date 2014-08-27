@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{320ee61e-9550-44f7-9327-f33803fd8d97}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{50c977d4-561f-4376-92a2-1ef7a9816914}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Vision">
+      <UniqueIdentifier>{3b1dcb00-52ef-4f2c-8579-e089051d2f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Camera">
+      <UniqueIdentifier>{7fd896aa-23cf-4e88-a859-a8c9e6d05290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vision\Blob">
+      <UniqueIdentifier>{3e528b44-9931-4d9e-96cf-0eb710ca863d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Camera">
+      <UniqueIdentifier>{26370bee-76c6-429e-ae67-44cb0c1a63b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vision">
+      <UniqueIdentifier>{45f61064-b202-4eed-84d0-9ed19a5e02d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vision\TLD">
+      <UniqueIdentifier>{74c5dd2b-00e8-4640-9657-2cce46e790bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vision\Blob">
+      <UniqueIdentifier>{0ffd0eea-80f7-44c0-b71e-b588b18a888f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Vision\TLD">
+      <UniqueIdentifier>{236a8a53-e320-4588-b951-b42c14bf4fe4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UI\Forms\AlgoSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CalibrationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\CameraConnectDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller\CommRobot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FrameLabel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Forms\MOGSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\Robot_ai.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AI\StateMachine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Forms\TLDSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\VisionUnit_widget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\listefiltres.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CalibrationDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CalibrationDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CameraConnectDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CameraConnectDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_CaptureThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_CaptureThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_FrameLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_FrameLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MOGSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MOGSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_ProcessingThread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_ProcessingThread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_TLDSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_TLDSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_VisionUnit_widget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_VisionUnit_widget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_listefiltres.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_listefiltres.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Images.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\mftracker\BB.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\mftracker\BBPredict.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\Calibration.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\CaptureThread.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\Clustering.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\cvBlob\cvaux.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\cvBlob\cvblob.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\cvBlob\cvcolor.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\cvBlob\cvcontour.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\cvBlob\cvlabel.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\cvBlob\cvtrack.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\DetectionResult.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\DetectorCascade.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\EnsembleClassifier.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\ForegroundDetector.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\mftracker\FBTrack.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\imacq\ImAcq.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\Kalman.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\mftracker\Lk.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\mftracker\Median.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\MedianFlowTracker.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\NNClassifier.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\TLD.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\TLDUtil.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\Trajectory.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\libopentld\tld\VarianceFilter.cpp">
+      <Filter>Source Files\Vision\TLD</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\ProcessingThread.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\SentryTLD.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\SharedImageBuffer.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\SlidingWinDetector.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\VisionUnit.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\ImageBuffer.cpp">
+      <Filter>Source Files\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\opencvbloblib\blob.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\opencvbloblib\BlobContour.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\opencvbloblib\BlobResult.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\opencvbloblib\ComponentLabeling.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\opencvbloblib\BlobOperators.cpp">
+      <Filter>Source Files\Vision\Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\MoGTLD.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Vision\SentryMoG.cpp">
+      <Filter>Source Files\Vision</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\moc_MoGTLDSettings.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Release\moc_MoGTLDSettings.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Forms\MoGTLDSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="UI\CameraConnectDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="Controller\CommRobot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="UI\FrameLabel.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\MOGSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="AI\Robot_ai.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AI\StateMachine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <CustomBuild Include="UI\Forms\TLDSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\VisionUnit_widget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\listefiltres.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <ClInclude Include="GeneratedFiles\ui_CalibrationDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CameraConnectDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MOGSettings.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TLDSettings.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VisionUnit_widget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_listefiltres.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Forms\AlgoSettings.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\AlgoVision.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <CustomBuild Include="UI\CalibrationDialog.h">
+      <Filter>Header Files\Vision</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Camera\CaptureThread.h">
+      <Filter>Header Files\Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Camera\ProcessingThread.h">
+      <Filter>Header Files\Camera</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\MoGTLDSettings.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\MoGTLDSettings.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="UI\Forms\CalibrationDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\CameraConnectDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\MOGSettings.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\TLDSettings.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\VisionUnit_widget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\listefiltres.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\Forms\mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="UI\Images.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="UI\Resources\green_light.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UI\Resources\logoCible.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UI\Resources\red_light.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="UI\Resources\yellow_light.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vision\Calibration.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\cvBlob\cvblob.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\Kalman.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\SharedImageBuffer.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\Structures.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\SentryTLD.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\VisionUnit.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\SlidingWinDetector.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\ImageBuffer.h">
+      <Filter>Header Files\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\opencvbloblib\BlobContour.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\opencvbloblib\blob.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\opencvbloblib\BlobOperators.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\opencvbloblib\BlobResult.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\opencvbloblib\ComponentLabeling.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\opencvbloblib\BlobLibraryConfiguration.h">
+      <Filter>Header Files\Vision\Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\TLDUtil.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\Clustering.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\DetectionResult.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\DetectorCascade.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\EnsembleClassifier.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\ForegroundDetector.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\IntegralImage.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\MedianFlowTracker.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\NNClassifier.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\NormalizedPatch.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\TLD.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\tld\VarianceFilter.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\mftracker\BB.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\mftracker\BBPredict.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\mftracker\FBTrack.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\mftracker\Lk.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\mftracker\Median.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\libopentld\imacq\ImAcq.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\Trajectory.h">
+      <Filter>Header Files\Vision\TLD</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\MoGTLD.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="Vision\SentryMoG.h">
+      <Filter>Header Files\Vision</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MoGTLDSettings.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="multiCV.rc" />
+  </ItemGroup>
+</Project>
